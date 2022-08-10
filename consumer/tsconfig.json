@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ES2020",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "rootDirs": [
+      "src",
+    ],
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
