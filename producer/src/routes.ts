@@ -1,6 +1,6 @@
 import { Router } from "express"
-import { EXCHANGES, QUEUES } from "./constants.js"
-import { MessageBroker } from "./message-broker.js"
+import { EXCHANGES, QUEUES } from "./constants"
+import { MessageBroker } from "./message-broker"
 
 const router = Router()
 

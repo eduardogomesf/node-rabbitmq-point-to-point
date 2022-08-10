@@ -4,7 +4,7 @@ export class MessageBroker {
     private conn: Connection;
     private channel: Channel;
 
-    constructor (private uri = '') {
+    constructor (private uri) {
     }
 
     async start (): Promise<void> {
