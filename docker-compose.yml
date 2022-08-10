@@ -1,5 +1,12 @@
 version: "3"
 services:
+  producer:
+    container_name: producer-container
+    build: ./producer
+    image: node-producer
+    restart: always
+    ports:
+      - "8080:8080"
   rabbitmq:
     image: "rabbitmq:3.8-management-alpine"
     container_name: nodejs-rabbitmq-rabbitmq
